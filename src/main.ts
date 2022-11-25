@@ -30,3 +30,24 @@ const user2: IUser = {
 };
 
 console.log(user.getMessage);
+
+// union operator in Ts
+type ID = string;
+type PopularTag = string;
+type MaybePopularTag = PopularTag | null;
+
+interface IUser2 {
+  name: string;
+  surname: string;
+}
+
+const popularTags: PopularTag[] = ['dragon', 'coffee'];
+const dragonsTag: MaybePopularTag;
+
+let username: string = 'alex';
+let pageNumber: string | number = '1';
+
+let errorMessage: string | null = null;
+// mean by default it will be null
+
+let useragain: IUser2 | null = null;

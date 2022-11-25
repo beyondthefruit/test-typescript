@@ -21,3 +21,10 @@ var user2 = {
     }
 };
 console.log(user.getMessage);
+var popularTags = ['dragon', 'coffee'];
+var dragonsTag;
+var username = 'alex';
+var pageNumber = '1';
+var errorMessage = null;
+// mean by default it will be null
+var useragain = null;
